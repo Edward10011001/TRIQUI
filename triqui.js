@@ -88,3 +88,4 @@ function verificarGanador(jugador) {
 function tableroCompleto() {
     return tablero.every(casilla => casilla !== '');
 }
+´//´me dice que puedo comentar sind añar codigo 
