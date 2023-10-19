@@ -89,3 +89,5 @@ function tableroCompleto() {
     return tablero.every(casilla => casilla !== '');
 }
 ´//´me dice que puedo comentar sind añar codigo 
+
+´//´una mas por hoy 
