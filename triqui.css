@@ -4,7 +4,18 @@ body {
 }
 
 h1 {
-    margin-top: 20px;
+    /* Quita los caracteres extraños y corrige la animación */
+    /*margin-top: 20px; */
+    animation: titiloAnimado 15s linear infinite;
+}
+
+@keyframes titiloAnimado {
+    0% {
+        transform: rotate(0deg); /* Corrige 'ratate' a 'rotate' */
+    }
+    100% {
+        transform: rotate(360deg); /* Corrige 'ratate' a 'rotate' */
+    }
 }
 
 .tablero {
@@ -43,4 +54,7 @@ h1 {
 #mensaje {
     margin-top: 20px;
     font-size: 24px;
-} 
+}
+
+
+/* 24 - 10 -2023  Modifiación para modificar con  git commit -am */
