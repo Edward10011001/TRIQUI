@@ -6,7 +6,7 @@ body {
 h1 {
     /* Quita los caracteres extraños y corrige la animación */
     /*margin-top: 20px; */
-    animation: titiloAnimado 15s linear infinite;
+    animation: titiloAnimado 90s linear infinite;
 }
 
 @keyframes titiloAnimado {
@@ -58,3 +58,7 @@ h1 {
 
 
 /* 24 - 10 -2023  Modifiación para modificar con  git commit -am */
+h1  {
+    font-weight: bolder;
+    --webkit-stroke-color:#1f21ff;
+}
